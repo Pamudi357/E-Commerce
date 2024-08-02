@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>delete_user</title>
+</head>
+<body>
+<div class="wrapper">
+    <section class="form login">
+        <header>DELETE PRODUCT</header>
+        <form action="product_delete.php" method="post">
+            <div class="field input">
+                <label>Product Name</label>
+                <input type="text" name="name" placeholder="Enter product Name" required>
+            </div>
+            <div class="field input">
+                <label>Product Price</label>
+                <input type="text" name="price" placeholder="Enter product price" required>
+            </div>
+            <div class="field input">
+                <label>Product Weight</label>
+                <input type="text" name="weight" placeholder="Enter product weight" required>
+            </div>
+            <div class="field input">
+                <label>Product Description</label>
+                <textarea type="text" name="description" placeholder="Enter product description" required></textarea>
+            </div>
+            <div class="field image">
+                <label>Select Image</label>
+                <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+            </div>
+            <div class="field button">
+                <input type="submit" name="submit" value="Delete Product">
+            </div>
+        </form>
+    </section>
+</div>
+</body>
+</html>
